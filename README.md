@@ -1,5 +1,5 @@
 # go-gin-file-server
-[Englis](./README.md) | [中文](./README_zh.md)
+[English](./README.md) | [中文](./README_zh.md)
 
 A simple file server built with Gin framework, featuring file uploads, downloads, and tracking of upload history in MySQL using GORM, as well as event notification using Kafka-go and logging with Zap.
 
@@ -12,3 +12,4 @@ A simple file server built with Gin framework, featuring file uploads, downloads
 - [X] Use the Segmentio/kafka-go module to push file upload events to Kafka.
 - [X] Use the Zap module to log server running messages for easy troubleshooting and issue resolution.
 - [X] Build a simple CLI interface for user interaction, such as accepting user input and performing corresponding actions, displaying results, and other operations. Use the Go standard library or other third-party libraries to implement features such as menu selectors and input prompts.
+
